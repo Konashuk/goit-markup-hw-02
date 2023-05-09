@@ -15,7 +15,7 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
 }
-/* COMPONENTS  */
+/* ======================COMPONENTS======================  */
 .heading {
   font-weight: 700;
   font-size: 36px;
@@ -36,7 +36,7 @@ body {
   line-height: 0.67;
   color: #434455;
 }
-/* LOGO  */
+/*====================== LOGO ======================  */
 .logo-site {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -51,14 +51,14 @@ body {
 .part-logo {
   color: #4d5ae5;
 }
-/* NAVIGATION  */
+/*====================== NAVIGATION ====================== */
 .link-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 0.67;
   color: var(--primaty-color-heading);
 }
-/* ADDRESS  */
+/*====================== ADDRESS ====================== */
 .contact-item {
   font-style: normal;
   font-weight: 400;
@@ -66,7 +66,7 @@ body {
   line-height: 0.67;
   color: #434455;
 }
-/* HERO BANER  */
+/*====================== HERO BANER ====================== */
 .hero-text {
   font-weight: 700;
   font-size: 56px;
@@ -82,11 +82,11 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-/* SOLUTION  */
+/*====================== SOLUTION ====================== */
 
-/* WHAT ARE WE DOING  */
+/*====================== WHAT ARE WE DOING ====================== */
 
-/* FOOTER  */
+/*====================== FOOTER  ======================*/
 .footer-text {
   font-weight: 400;
   font-size: 16px;
