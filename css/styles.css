@@ -1,6 +1,6 @@
-:root {
+/* :root {
   --primaty-color-heading: #2e2f42;
-}
+} */
 
 .link {
   text-decoration: none;
@@ -14,6 +14,7 @@
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 /* ======================COMPONENTS======================  */
 .heading {
@@ -22,13 +23,13 @@ body {
   line-height: 0.9;
   text-align: center;
   text-transform: capitalize;
-  color: var(--primaty-color-heading);
+  color: #2e2f42;
 }
 .heading-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 0.83;
-  color: var(--primaty-color-heading);
+  color: #2e2f42;
 }
 .section-text {
   font-weight: 400;
@@ -36,6 +37,7 @@ body {
   line-height: 0.67;
   color: #434455;
 }
+
 /*====================== LOGO ======================  */
 .logo-site {
   font-family: "Raleway", sans-serif;
@@ -56,7 +58,16 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 0.67;
-  color: var(--primaty-color-heading);
+  color: #2e2f42;
+}
+/*====================== CONTACTS ====================== */
+.link-item:focus,
+.link-item:hover {
+  color: #404bbf;
+}
+.contact-item:focus,
+.contact-item:hover {
+  color: #404bbf;
 }
 /*====================== ADDRESS ====================== */
 .contact-item {
@@ -74,13 +85,19 @@ body {
   text-align: center;
   color: #d9d9d9;
 }
-.hero-btn {
+.btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 0.67px;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+.btn:hover,
+.btn:focus {
+  color: #404bbf;
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /*====================== SOLUTION ====================== */
 
