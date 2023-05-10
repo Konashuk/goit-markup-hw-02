@@ -24,6 +24,7 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .heading-list {
@@ -36,7 +37,7 @@ body {
 .section-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 1.5;
   color: #434455;
 }
 
@@ -124,7 +125,14 @@ body {
 }
 
 /*====================== PORTFOLIO ====================== */
-
+.portfolio-btn {
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+}
 /*====================== FOOTER  ======================*/
 .footer {
   background-color: #2e2f42;
