@@ -14,13 +14,14 @@
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 /* ======================COMPONENTS======================  */
 .heading {
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.9;
+  line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
@@ -28,7 +29,8 @@ body {
 .heading-list {
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.83;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .section-text {
@@ -43,21 +45,21 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 0.9;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-.part-logo {
   color: #4d5ae5;
 }
-/*====================== NAVIGATION ====================== */
+.part-logo {
+  color: #2e2f42;
+}
+/*====================== PAGES ON SITE ====================== */
 .link-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 1.5;
   color: #2e2f42;
 }
 /*====================== CONTACTS ====================== */
@@ -69,26 +71,32 @@ body {
 .contact-item:hover {
   color: #404bbf;
 }
-/*====================== ADDRESS ====================== */
-.contact-item {
+.contact {
   font-style: normal;
+}
+.contact-item {
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 1.5;
   color: #434455;
 }
 /*====================== HERO BANER ====================== */
+.hero {
+  background-color: #2e2f42;
+}
 .hero-text {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.2;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
-  color: #d9d9d9;
+  color: #ffffff;
 }
 .btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.67px;
+  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -98,6 +106,7 @@ body {
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
@@ -107,11 +116,25 @@ body {
 /*====================== SOLUTION ====================== */
 
 /*====================== WHAT ARE WE DOING ====================== */
+.team {
+  background-color: #f4f4fd;
+}
+.team-list {
+  background-color: #ffffff;
+}
+
+/*====================== PORTFOLIO ====================== */
 
 /*====================== FOOTER  ======================*/
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: #f4f4fd;
+}
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 1.5;
   /* color: #f4f4fd; */
 }
